@@ -21,10 +21,8 @@ class PreferencesWindow: NSWindowController, NSWindowDelegate {
         self.window?.makeKeyAndOrderFront(nil)
         NSApp.activate(ignoringOtherApps: true)
         
-        let defaults = UserDefaults.standard
     }
     
     func windowWillClose(_ notification: Notification) {
-        let defaults = UserDefaults.standard
     }
 }
