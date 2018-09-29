@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14313.18"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -18,7 +17,6 @@
         <customObject id="sS3-a3-GGc" userLabel="StatusMenuController" customClass="StatusMenuController" customModule="CLIHelpMenu" customModuleProvider="target">
             <connections>
                 <outlet property="statusMenu" destination="qZp-Ad-uDX" id="XFG-js-aKj"/>
-                <outlet property="weatherView" destination="HhN-DY-IST" id="hvL-Yk-HVZ"/>
             </connections>
         </customObject>
         <menu id="qZp-Ad-uDX">
@@ -39,40 +37,5 @@
             </items>
             <point key="canvasLocation" x="-104.5" y="214.5"/>
         </menu>
-        <customView id="HhN-DY-IST" customClass="WeatherView" customModule="CLIHelpMenu" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="265" height="90"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <subviews>
-                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="niq-hJ-JPc">
-                    <rect key="frame" x="20" y="22" width="50" height="50"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="Iot-v5-CTs"/>
-                </imageView>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZIn-wH-cUL">
-                    <rect key="frame" x="80" y="55" width="178" height="17"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="City" id="LHl-t2-t4z">
-                        <font key="font" metaFont="system"/>
-                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BAj-OW-50m">
-                    <rect key="frame" x="80" y="30" width="179" height="17"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Tempurature and Conditions" id="k04-hM-Q9o">
-                        <font key="font" metaFont="system"/>
-                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
-            </subviews>
-            <connections>
-                <outlet property="cityTextField" destination="ZIn-wH-cUL" id="5I9-n3-gEe"/>
-                <outlet property="currentConditionsTextField" destination="BAj-OW-50m" id="Xfx-Ct-KNa"/>
-                <outlet property="imageView" destination="niq-hJ-JPc" id="vKl-jS-MuE"/>
-            </connections>
-            <point key="canvasLocation" x="-37.5" y="368"/>
-        </customView>
     </objects>
 </document>
