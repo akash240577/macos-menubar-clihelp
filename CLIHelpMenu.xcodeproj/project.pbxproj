@@ -42,15 +42,15 @@
 		A2B4247C1BCDE3D300887CB2 /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		A2D582271BCAAF37006A464B /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		A2D582291BCB6068006A464B /* WeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
-		A2DEB14A1BC9980E004AAEB3 /* WeatherBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DEB14A1BC9980E004AAEB3 /* CLIHelpMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLIHelpMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DEB14D1BC9980E004AAEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2DEB14F1BC9980E004AAEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2DEB1521BC9980E004AAEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A2DEB1541BC9980E004AAEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2DEB1591BC9980E004AAEB3 /* WeatherBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DEB1591BC9980E004AAEB3 /* CLIHelpMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLIHelpMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DEB15D1BC9980E004AAEB3 /* WeatherBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBarTests.swift; sourceTree = "<group>"; };
 		A2DEB15F1BC9980E004AAEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2DEB1641BC9980E004AAEB3 /* WeatherBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DEB1641BC9980E004AAEB3 /* CLIHelpMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLIHelpMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DEB1681BC9980E004AAEB3 /* WeatherBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBarUITests.swift; sourceTree = "<group>"; };
 		A2DEB16A1BC9980E004AAEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,9 +93,9 @@
 		A2DEB14B1BC9980E004AAEB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2DEB14A1BC9980E004AAEB3 /* WeatherBar.app */,
-				A2DEB1591BC9980E004AAEB3 /* WeatherBarTests.xctest */,
-				A2DEB1641BC9980E004AAEB3 /* WeatherBarUITests.xctest */,
+				A2DEB14A1BC9980E004AAEB3 /* CLIHelpMenu.app */,
+				A2DEB1591BC9980E004AAEB3 /* CLIHelpMenuTests.xctest */,
+				A2DEB1641BC9980E004AAEB3 /* CLIHelpMenuUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2DEB1491BC9980E004AAEB3 /* WeatherBar */ = {
+		A2DEB1491BC9980E004AAEB3 /* CLIHelpMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2DEB16D1BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "WeatherBar" */;
+			buildConfigurationList = A2DEB16D1BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "CLIHelpMenu" */;
 			buildPhases = (
 				A2DEB1461BC9980E004AAEB3 /* Sources */,
 				A2DEB1471BC9980E004AAEB3 /* Frameworks */,
@@ -149,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = WeatherBar;
+			name = CLIHelpMenu;
 			productName = WeatherBar;
-			productReference = A2DEB14A1BC9980E004AAEB3 /* WeatherBar.app */;
+			productReference = A2DEB14A1BC9980E004AAEB3 /* CLIHelpMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A2DEB1581BC9980E004AAEB3 /* WeatherBarTests */ = {
+		A2DEB1581BC9980E004AAEB3 /* CLIHelpMenuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2DEB1701BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "WeatherBarTests" */;
+			buildConfigurationList = A2DEB1701BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "CLIHelpMenuTests" */;
 			buildPhases = (
 				A2DEB1551BC9980E004AAEB3 /* Sources */,
 				A2DEB1561BC9980E004AAEB3 /* Frameworks */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				A2DEB15B1BC9980E004AAEB3 /* PBXTargetDependency */,
 			);
-			name = WeatherBarTests;
+			name = CLIHelpMenuTests;
 			productName = WeatherBarTests;
-			productReference = A2DEB1591BC9980E004AAEB3 /* WeatherBarTests.xctest */;
+			productReference = A2DEB1591BC9980E004AAEB3 /* CLIHelpMenuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A2DEB1631BC9980E004AAEB3 /* WeatherBarUITests */ = {
+		A2DEB1631BC9980E004AAEB3 /* CLIHelpMenuUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2DEB1731BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "WeatherBarUITests" */;
+			buildConfigurationList = A2DEB1731BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "CLIHelpMenuUITests" */;
 			buildPhases = (
 				A2DEB1601BC9980E004AAEB3 /* Sources */,
 				A2DEB1611BC9980E004AAEB3 /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				A2DEB1661BC9980E004AAEB3 /* PBXTargetDependency */,
 			);
-			name = WeatherBarUITests;
+			name = CLIHelpMenuUITests;
 			productName = WeatherBarUITests;
-			productReference = A2DEB1641BC9980E004AAEB3 /* WeatherBarUITests.xctest */;
+			productReference = A2DEB1641BC9980E004AAEB3 /* CLIHelpMenuUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2DEB1451BC9980E004AAEB3 /* Build configuration list for PBXProject "WeatherBar" */;
+			buildConfigurationList = A2DEB1451BC9980E004AAEB3 /* Build configuration list for PBXProject "CLIHelpMenu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,9 +228,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2DEB1491BC9980E004AAEB3 /* WeatherBar */,
-				A2DEB1581BC9980E004AAEB3 /* WeatherBarTests */,
-				A2DEB1631BC9980E004AAEB3 /* WeatherBarUITests */,
+				A2DEB1491BC9980E004AAEB3 /* CLIHelpMenu */,
+				A2DEB1581BC9980E004AAEB3 /* CLIHelpMenuTests */,
+				A2DEB1631BC9980E004AAEB3 /* CLIHelpMenuUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,12 +296,12 @@
 /* Begin PBXTargetDependency section */
 		A2DEB15B1BC9980E004AAEB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2DEB1491BC9980E004AAEB3 /* WeatherBar */;
+			target = A2DEB1491BC9980E004AAEB3 /* CLIHelpMenu */;
 			targetProxy = A2DEB15A1BC9980E004AAEB3 /* PBXContainerItemProxy */;
 		};
 		A2DEB1661BC9980E004AAEB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2DEB1491BC9980E004AAEB3 /* WeatherBar */;
+			target = A2DEB1491BC9980E004AAEB3 /* CLIHelpMenu */;
 			targetProxy = A2DEB1651BC9980E004AAEB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,7 +441,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.etsy.WeatherBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherBar.app/Contents/MacOS/WeatherBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLIHelpMenu.app/Contents/MacOS/CLIHelpMenu";
 			};
 			name = Debug;
 		};
@@ -455,7 +455,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.etsy.WeatherBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherBar.app/Contents/MacOS/WeatherBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLIHelpMenu.app/Contents/MacOS/CLIHelpMenu";
 			};
 			name = Release;
 		};
@@ -490,7 +490,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2DEB1451BC9980E004AAEB3 /* Build configuration list for PBXProject "WeatherBar" */ = {
+		A2DEB1451BC9980E004AAEB3 /* Build configuration list for PBXProject "CLIHelpMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2DEB16B1BC9980E004AAEB3 /* Debug */,
@@ -499,7 +499,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2DEB16D1BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "WeatherBar" */ = {
+		A2DEB16D1BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "CLIHelpMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2DEB16E1BC9980E004AAEB3 /* Debug */,
@@ -508,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2DEB1701BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "WeatherBarTests" */ = {
+		A2DEB1701BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "CLIHelpMenuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2DEB1711BC9980E004AAEB3 /* Debug */,
@@ -517,7 +517,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2DEB1731BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "WeatherBarUITests" */ = {
+		A2DEB1731BC9980E004AAEB3 /* Build configuration list for PBXNativeTarget "CLIHelpMenuUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2DEB1741BC9980E004AAEB3 /* Debug */,

@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  WeatherBar
-//
-//  Created by Brad Greenlee on 10/10/15.
-//  Copyright © 2015 Etsy. All rights reserved.
-//
+
 
 import Cocoa
 

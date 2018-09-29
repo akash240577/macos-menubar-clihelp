@@ -1,10 +1,4 @@
-//
-//  PreferencesWindow.swift
-//  WeatherBar
-//
-//  Created by Brad Greenlee on 10/13/15.
-//  Copyright © 2015 Etsy. All rights reserved.
-//
+
 
 import Cocoa
 
@@ -28,13 +22,9 @@ class PreferencesWindow: NSWindowController, NSWindowDelegate {
         NSApp.activate(ignoringOtherApps: true)
         
         let defaults = UserDefaults.standard
-        let city = defaults.string(forKey: "city") ?? DEFAULT_CITY
-        cityTextField.stringValue = city
     }
     
     func windowWillClose(_ notification: Notification) {
         let defaults = UserDefaults.standard
-        defaults.setValue(cityTextField.stringValue, forKey: "city")
-        delegate?.preferencesDidUpdate()
     }
 }
