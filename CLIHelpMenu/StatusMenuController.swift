@@ -5,7 +5,6 @@ import Cocoa
 class StatusMenuController: NSObject, PreferencesWindowDelegate {    
     @IBOutlet weak var statusMenu: NSMenu!
 
-    var weatherMenuItem: NSMenuItem!
     var preferencesWindow: PreferencesWindow!
 
     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
@@ -22,7 +21,7 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
     }
     
     func OpenCliHelpWeb() {
-        
+        NSWorkspace.shared().open(NSURL(string: "https://community.clihelp.org/")! as URL)
     }
     
     @IBAction func updateClicked(_ sender: NSMenuItem) {
