@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "statusIcon.png",
+      "filename" : "32.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "statusIcon@2x.png",
+      "filename" : "32.png",
       "scale" : "2x"
     },
     {
