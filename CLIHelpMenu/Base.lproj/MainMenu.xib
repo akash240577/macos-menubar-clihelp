@@ -24,75 +24,69 @@
                 <menuItem title="CLI Help" id="CyZ-K7-RM6">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="fiK-uK-iuP"/>
+                        <action selector="cliHelpClicked:" target="sS3-a3-GGc" id="i8J-jU-Gle"/>
                     </connections>
                 </menuItem>
                 <menuItem title="Ask Question" id="5TM-MT-GFn">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="M1J-Ao-rxk"/>
+                        <action selector="askQuestionClicked:" target="sS3-a3-GGc" id="gW2-np-ye5"/>
                     </connections>
                 </menuItem>
                 <menuItem title="Personal Activity" id="fku-fz-XUV">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="2Ax-Yg-Ocf"/>
+                        <action selector="personalActivityClicked:" target="sS3-a3-GGc" id="XkU-D7-QUZ"/>
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="nf3-SP-UCH"/>
                 <menuItem title="Windows" id="qhW-jm-2oK">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="Vd8-sf-MTK"/>
+                        <action selector="windowsClicked:" target="sS3-a3-GGc" id="DpO-nZ-wwN"/>
                     </connections>
                 </menuItem>
                 <menuItem title="Linux" id="BfW-3m-4Hr" userLabel="Linux">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="dGx-28-N1o"/>
+                        <action selector="linuxClicked:" target="sS3-a3-GGc" id="564-UL-1sa"/>
                     </connections>
                 </menuItem>
                 <menuItem title="MacOS" id="qjZ-Kg-OHp" userLabel="MacOS">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="ZQp-La-XaL"/>
+                        <action selector="macosClicked:" target="sS3-a3-GGc" id="rUR-f5-3Xg"/>
                     </connections>
                 </menuItem>
                 <menuItem title="Networking" id="xCO-Ey-zxi" userLabel="Networking">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="gHN-P7-WEK"/>
+                        <action selector="networkingClicked:" target="sS3-a3-GGc" id="hTt-xk-3Ni"/>
                     </connections>
                 </menuItem>
-                <menuItem title="General Networking" id="Fgm-Am-BSa" userLabel="General Questions">
+                <menuItem title="General Questions" id="Fgm-Am-BSa" userLabel="General Questions">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="bAW-0I-oag"/>
+                        <action selector="generalQClicked:" target="sS3-a3-GGc" id="GeR-TP-Oki"/>
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="Gjd-v8-3zi"/>
                 <menuItem title="Help &amp; Support" id="Jxl-3W-9SV">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="F7V-od-y6b"/>
+                        <action selector="helpAndSupportClicked:" target="sS3-a3-GGc" id="QlE-5E-TDO"/>
                     </connections>
                 </menuItem>
                 <menuItem title="Get Involved" id="Nmq-Kv-qAh" userLabel="Get Involved">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="1Qr-YN-6Gz"/>
+                        <action selector="getInvolvedClicked:" target="sS3-a3-GGc" id="6jj-sC-caB"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Help &amp; Support" id="HBu-W0-m7v">
+                <menuItem title="Contact Us" id="HBu-W0-m7v">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="hr8-iG-8Ro"/>
-                    </connections>
-                </menuItem>
-                <menuItem title="Contact Us" id="VV8-QT-yn3" userLabel="Contact Us">
-                    <modifierMask key="keyEquivalentModifierMask"/>
-                    <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="any-sE-2T5"/>
+                        <action selector="contactClicked:" target="sS3-a3-GGc" id="0bM-A5-a2v"/>
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="Ddi-VQ-orq"/>
@@ -116,7 +110,7 @@
                     </connections>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="-18" y="196"/>
+            <point key="canvasLocation" x="192" y="139"/>
         </menu>
     </objects>
 </document>
