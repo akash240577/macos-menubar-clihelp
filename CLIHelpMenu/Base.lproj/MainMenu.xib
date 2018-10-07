@@ -93,13 +93,13 @@
                 <menuItem title="Donate" id="FpI-hE-EyM" userLabel="Donate">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="WYo-Nm-EhN"/>
+                        <action selector="donateClicked:" target="sS3-a3-GGc" id="qBI-gH-3Nr"/>
                     </connections>
                 </menuItem>
                 <menuItem title="Improve this App" id="gt7-Tc-ugd" userLabel="Improve this App">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="updateClicked:" target="sS3-a3-GGc" id="9B5-Sb-xd6"/>
+                        <action selector="improveClicked:" target="sS3-a3-GGc" id="1jT-oM-I2u"/>
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="z6w-pr-OVH"/>
